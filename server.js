@@ -22,8 +22,8 @@ app.get('/endpoint4', (req, res) => {
     res.send("It is endpoint4");
   });
 
-// cd /Users/sviatoslavpaseka/Documents/projects/simple-server
-// node server.js 
+// cd /path/to/project/simple-server
+// node server.js
 
 // POST endpoints
 app.post('/post-endpoint-1', (req, res) => {
